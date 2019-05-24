@@ -10,9 +10,7 @@ void main() {
         ),
         backgroundColor: Colors.blueGrey,
         body: Center(
-          child: Image(
-              image: NetworkImage(
-                  'https://petapixel.com/assets/uploads/2019/02/mooncompositemain-800x800.jpg')),
+          child: Image(image: AssetImage('images/diamond.png')),
         ),
       ),
     ),
